@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>landing page</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        
+        <nav>
+            <div class="heading">
+                <h1>LANDING PAGE</h1></div>
+            <span class="sideMenuButton" onclick="openNavbar()">
+                ☰
+            </span>
+            <div class="navbar">
+                <ul>
+                    <li><a href="#Home">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SIGN UP</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="sideNavigationBar" id="sideNavigationBar">
+            <a href="#" class="closeButton" onclick="closeNavBar()">
+                ❌
+            </a>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">SIGN UP</a>
+        </div>
+        <div class="line" id="HOME">
+            <div class="side1">
+                <h1>U CAN PERFORM THE BASIC EDITING SKILLS</h1>
+                <button>
+                    <a href="https://imageresizer.com/">to resize the image</a>
+                </button>
+                <button>
+                    <a href="https://www.canva.com/">template designs</a>
+                </button>
+            </div>
+            <div class="side2">
+                <img src="https://imageresizer.com/social.png"width="500">
+            </div>
+        </div>
+        <section class="contact" id="contact">
+            <div class="content">
+                <div class="title"><span>Sign Up</span></div>
+                <div class="contactMenu">
+                    <div class="input1">
+                        <div class="label1">YOUR NAME</div>
+                        <div class="input2">
+                            <input type="text" placeholder="ENTER YOUR NAME HERE">
+                            
+                        </div>
+                        <div class="label1">
+                            <label>YOUR EMAIL</label>
+                        </div>
+                        <div class="input2">
+                            <input type="text" placeholder="ENTER YOUR PASSWORD HERE">
+                        </div>
+                        <div class="button">
+                            <button>SIGN UP</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <script src="index.js"></script>
+    </body>
+</html>
